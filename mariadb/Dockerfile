@@ -1,4 +1,4 @@
-FROM mariadb:10.5.5
+FROM mariadb:latest
 
 COPY sqldump.sh /sqldump.sh
 
